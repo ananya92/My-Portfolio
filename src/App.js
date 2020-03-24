@@ -1,29 +1,34 @@
 import React from 'react';
 import './App.css';
 import { Layout, Header, Drawer, Navigation, Content} from 'react-mdl';
+import NavTabs from "./components/navTabs";
+import {Link} from 'react-router-dom';
 function App() {
   return (
-    <div style={{height: '100vh', position: 'relative'}}>
-      <Layout style={{background: 'url(/images/cover.jpg) center / cover'}}>
-          <Header transparent title="My Portfolio">
-              <Navigation>
-                  <a href="/">About Me</a>
-                  <a href="/">Projects</a>
-                  <a href="/">Resume</a>
-                  <a href="/">Contact</a>
-              </Navigation>
-          </Header>
-          <Drawer title="My Portfolio">
-              <Navigation>
-                  <a href="/">About Me</a>
-                  <a href="/">Projects</a>
-                  <a href="/">Resume</a>
-                  <a href="/">Contact</a>
-              </Navigation>
-          </Drawer>
-          <Content />
-      </Layout>
-  </div>
+    <div className="demo-big-content">
+        <Layout>
+            <Header title="My Portfolio" scroll>
+                <Navigation>
+                    <Link to="/aboutme">About Me</Link>
+                    <Link to="/resume">Resume</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
+                </Navigation>
+            </Header>
+            <Drawer title="My Portfolio">
+                <Navigation>
+                    <Link to="/aboutme">About Me</Link>
+                    <Link to="/resume">Resume</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
+                </Navigation>
+            </Drawer>
+            <Content>
+                <div className="page-content" />
+                <NavTabs></NavTabs>
+            </Content>
+        </Layout>
+    </div>
   );
 }
 
