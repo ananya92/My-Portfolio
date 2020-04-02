@@ -6,17 +6,17 @@ import {Link} from 'react-router-dom';
 function App() {
   return (
     <div className="demo-big-content">
-        <Layout>
-            <Header title="My Portfolio" scroll>
-                <Navigation>
+        <Layout fixedHeader>
+            <Header title={<a href="/" className="styleTitle">Ananya Pramanik</a>} className="header-gradient" scroll>
+                <Navigation id="linkTabs">
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/resume">Resume</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
-            <Drawer title="My Portfolio">
-                <Navigation>
+            <Drawer title={<a href="/" className="styleTitle">Ananya Pramanik</a>} className="header-gradient">
+                <Navigation className="header-gradient d-lg-none">
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/resume">Resume</Link>
                     <Link to="/projects">Projects</Link>
