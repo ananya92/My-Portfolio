@@ -51,6 +51,60 @@ class AboutMe extends Component {
                     <Grid className="landingGrid" style={{ width: '100%', background: 'url(/images/tech_background.jpg) center / cover' }}>
                         <Cell className="gridTech" col={12}>
                             <h1 className="headerStyle" style={{ color: "white" }}>Technologies</h1>
+                            <div className="gridRow">
+                                <p>Fontend</p>
+                                <ul className="inlineCell">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>JQuery</li>
+                                    <li>API integration- AJAX, Axios</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                            </div>
+                            <div className="gridRow">
+                                <p>Backend</p>
+                                <ul className="inlineCell">
+                                    <li>Java</li>
+                                    <li>C++</li>
+                                    <li>Python</li>
+                                    <li>Node.js</li>
+                                    <li>Express.js</li>
+                                    <li>REST APIs</li>
+                                    <li>Handlebars templating engine</li>
+                                    <li>MVC Framework</li>
+                                    <li>User authentication- Passport.js</li>
+                                    <li>Sequelize ORM</li>
+                                    <li>Mongoose</li>
+                                </ul>
+                            </div>
+                            <div className="gridRow">
+                                <p>Single Page Application</p>
+                                <ul className="inlineCell">
+                                    <li>React.js</li>
+                                    <li>Redux</li>
+                                    <li>Socket.io</li>
+                                </ul>
+                            </div>
+                            <div className="gridRow">
+                                <p>Database</p>
+                                <ul className="inlineCell">
+                                    <li>MySQL</li>
+                                    <li>MongoDB</li>
+                                </ul>
+                            </div>
+                            <div className="gridRow">
+                                <p>Dev Tools</p>
+                                <ul className="inlineCell">
+                                    <li>Heroku</li>
+                                    <li>Git</li>
+                                    <li>GitHub</li>
+                                    <li>TortoiseSVN</li>
+                                    <li>Jira</li>
+                                    <li>Eclipse</li>
+                                    <li>Visual Studio Code</li>
+                                </ul>
+                            </div>
                         </Cell>
                     </Grid>
                     <Grid className="landingGrid">
