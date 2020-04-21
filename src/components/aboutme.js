@@ -57,6 +57,33 @@ class AboutMe extends Component {
                         <Cell col={2}><div></div></Cell>
                         <Cell col={8}>
                             <h1 className="headerStyle">Education</h1>
+                            <div className="wrapperEdu">
+                                <div className="alignEdu">
+                                    <Image src="images/utaustin.png" thumbnail />
+                                    <div className="fontStyle">
+                                        <h4>Masters degree in Computer Science</h4>
+                                        <p className="styleUni">University of Texas at Austin</p>
+                                        <p className="styleDate">Jan 2020 - Current</p>
+                                    </div>
+                                </div>
+                                <div className="alignEdu">
+                                    <Image src="images/uniAd.jpg" thumbnail />
+                                    <div className="fontStyle">
+                                        <h4>Certification course in Full Stack Web Development</h4>
+                                        <p className="styleUni">University of Adelaide</p>
+                                        <p className="styleDate">Oct 2019 - May 2020</p>
+                                    </div>
+                                </div>
+
+                                <div className="alignEdu">
+                                    <Image src="images/manipal.jpg" thumbnail />
+                                    <div className="fontStyle">
+                                        <h4>Bachelor's degree in Computer Science</h4>
+                                        <p className="styleUni">Manipal Institute of Technology, Manipal, India</p>
+                                        <p className="styleDate">Aug 2011 - May 2015</p>
+                                    </div>
+                                </div>
+                            </div>
                         </Cell>
                         <Cell col={2}><div></div></Cell>
                     </Grid>
@@ -64,6 +91,24 @@ class AboutMe extends Component {
                         <Cell col={2}><div></div></Cell>
                         <Cell col={8}>
                             <h1 className="headerStyle">Professional Experience</h1>
+                            <div className="wrapperEdu">
+                                <div className="alignEdu">
+                                    <Image src="images/hpe.jpg" thumbnail />
+                                    <div className="fontStyle">
+                                        <h4>Systems Software Engineer</h4>
+                                        <p className="styleUni">Hewlett Packard Enterprise, Bangalore, India</p>
+                                        <p className="styleDate">Aug 2015 - Oct 2018</p>
+                                    </div>
+                                </div>
+                                <div className="alignEdu">
+                                    <Image src="images/skillsPTE.png" thumbnail />
+                                    <div className="fontStyle">
+                                        <h4>PTE Instructor</h4>
+                                        <p className="styleUni">Skills PTE Academic</p>
+                                        <p className="styleDate">May 2018 - Oct 2019</p>
+                                    </div>
+                                </div>
+                            </div>
                         </Cell>
                         <Cell col={2}><div></div></Cell>
                     </Grid>
@@ -71,6 +116,24 @@ class AboutMe extends Component {
                         <Cell col={2}><div></div></Cell>
                         <Cell col={8}>
                             <h1 className="headerStyle">Internships</h1>
+                            <div className="wrapperEdu">
+                                <div className="alignEdu">
+                                    <Image src="images/hpe.jpg" thumbnail />
+                                    <div className="fontStyle">
+                                        <h4>Corporate Internship</h4>
+                                        <p className="styleUni">Hewlett Packard Enterprise, Bangalore, India</p>
+                                        <p className="styleDate">Jan 2015 - May 2015</p>
+                                    </div>
+                                </div>
+                                <div className="alignEdu">
+                                    <Image src="images/iitd.png" thumbnail />
+                                    <div className="fontStyle">
+                                        <h4>Summer Internship</h4>
+                                        <p className="styleUni">Indian Institute of Technology, Delhi</p>
+                                        <p className="styleDate">May 2014 - June 2014</p>
+                                    </div>
+                                </div>
+                            </div>
                         </Cell>
                         <Cell col={2}><div></div></Cell>
                     </Grid>
