@@ -75,12 +75,12 @@ class Contact extends Component {
                                             <p className="contactHeader">Other links:</p>
                                             <p>
                                                 <a href="https://www.linkedin.com/in/ananya-pramanik-16406b7a/" rel="noopenner noreferrer" target="_blank">
-                                                    /ananya-pramanik-16406b7a/
+                                                linkedin.com/in/ananya-pramanik-16406b7a/
                                                 </a>
                                             </p>
                                             <p>
                                                 <a href="https://github.com/ananya92" rel="noopenner noreferrer" target="_blank">
-                                                    /ananya92
+                                                github.com/ananya92
                                                 </a>
                                             </p>
                                         </Col>
