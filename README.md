@@ -1,2 +1,5 @@
 # My-Portfolio
-Creating my portfolio using React
+Creating portfolio as a single page application using React.
+
+## Deployed on Heroku
+https://ananyapramanik-portfolio.herokuapp.com/
