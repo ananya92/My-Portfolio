@@ -338,3 +338,49 @@
 .projectCard {
   padding: 10px;
 }
+
+.contactText p{
+  color: black;
+  text-align: center;
+}
+
+.contactText p i {
+  font-size: 3.5em;
+  text-align: center;
+  color: lightseagreen;
+  margin: 2px;
+}
+
+.contactText, .iconStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contactStyle {
+  padding: 10px;
+  border: 2px solid lightseagreen;
+  margin: 10px 0;
+}
+
+.iconStyle {
+  border: 1px solid lightgray;
+}
+
+.footer {
+  height: 64px;
+}
+
+.contactHeader {
+  font-size: 20px;
+  font-family: Nunito, sans-serif;
+}
+
+.contactStyle a {
+  color: blue;
+}
+
+.rowStyle {
+  display: flex;
+  justify-content: center;
+}
