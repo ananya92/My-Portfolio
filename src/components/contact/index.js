@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Footer from "./footer";
 import { Container, Row, Col } from 'react-bootstrap';
 class Contact extends Component {
     render() {

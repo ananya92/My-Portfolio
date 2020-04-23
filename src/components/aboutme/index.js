@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import { Card, CardDeck, Image } from 'react-bootstrap';
-import Footer from "./footer";
+import Footer from "../footer";
+import dbImg from "./img/database.jpg";
+import hpeImg from "./img/hpe.jpg";
+import iitImg from "./img/iitd.png";
+import javaImg from "./img/java.png";
+import mitImg from "./img/manipal.jpg";
+import mernImg from "./img/mern.jpg";
+import pteImg from "./img/skillsPTE.png";
+import uniImg from "./img/uniAd.jpg";
+import utImg from "./img/utaustin.png";
 
 class AboutMe extends Component {
     render() {
@@ -14,7 +23,7 @@ class AboutMe extends Component {
                             <CardDeck>
                                 <Card className="styleCard" style={{ width: '30%'}}>
                                     <div className="wrapper">
-                                        <Card.Img variant="top" src="images/java.png" />
+                                        <Card.Img variant="top" src={javaImg} />
                                     </div>
                                     <Card.Body>
                                         <Card.Title>Backend Java Development</Card.Title>
@@ -25,7 +34,7 @@ class AboutMe extends Component {
                                 </Card>
                                 <Card className="styleCard" style={{ width: '30%'}}>
                                     <div className="wrapper">
-                                        <Card.Img variant="top" src="images/mern.jpg" />
+                                        <Card.Img variant="top" src={mernImg} />
                                     </div>
                                     <Card.Body>
                                         <Card.Title>React / Javascript Development</Card.Title>
@@ -36,7 +45,7 @@ class AboutMe extends Component {
                                 </Card>
                                 <Card className="styleCard" style={{ width: '30%'}}>
                                     <div className="wrapper">
-                                        <Card.Img variant="top" src="images/database.jpg" />
+                                        <Card.Img variant="top" src={dbImg} />
                                     </div>
                                     <Card.Body>
                                         <Card.Title>MongoDB and MySQL Database</Card.Title>
@@ -113,7 +122,7 @@ class AboutMe extends Component {
                             <h1 className="headerStyle">Education</h1>
                             <div className="wrapperEdu">
                                 <div className="alignEdu">
-                                    <Image src="images/utaustin.png" thumbnail />
+                                    <Image src={utImg} thumbnail />
                                     <div className="fontStyle">
                                         <h4>Masters degree in Computer Science</h4>
                                         <p className="styleUni">University of Texas at Austin</p>
@@ -121,7 +130,7 @@ class AboutMe extends Component {
                                     </div>
                                 </div>
                                 <div className="alignEdu">
-                                    <Image src="images/uniAd.jpg" thumbnail />
+                                    <Image src={uniImg} thumbnail />
                                     <div className="fontStyle">
                                         <h4>Certification course in Full Stack Web Development</h4>
                                         <p className="styleUni">University of Adelaide</p>
@@ -130,7 +139,7 @@ class AboutMe extends Component {
                                 </div>
 
                                 <div className="alignEdu">
-                                    <Image src="images/manipal.jpg" thumbnail />
+                                    <Image src={mitImg} thumbnail />
                                     <div className="fontStyle">
                                         <h4>Bachelor's degree in Computer Science</h4>
                                         <p className="styleUni">Manipal Institute of Technology, Manipal, India</p>
@@ -147,7 +156,7 @@ class AboutMe extends Component {
                             <h1 className="headerStyle">Professional Experience</h1>
                             <div className="wrapperEdu">
                                 <div className="alignEdu">
-                                    <Image src="images/hpe.jpg" thumbnail />
+                                    <Image src={hpeImg} thumbnail />
                                     <div className="fontStyle">
                                         <h4>Systems Software Engineer</h4>
                                         <p className="styleUni">Hewlett Packard Enterprise, Bangalore, India</p>
@@ -155,7 +164,7 @@ class AboutMe extends Component {
                                     </div>
                                 </div>
                                 <div className="alignEdu">
-                                    <Image src="images/skillsPTE.png" thumbnail />
+                                    <Image src={pteImg} thumbnail />
                                     <div className="fontStyle">
                                         <h4>PTE Instructor</h4>
                                         <p className="styleUni">Skills PTE Academic</p>
@@ -172,7 +181,7 @@ class AboutMe extends Component {
                             <h1 className="headerStyle">Internships</h1>
                             <div className="wrapperEdu">
                                 <div className="alignEdu">
-                                    <Image src="images/hpe.jpg" thumbnail />
+                                    <Image src={hpeImg} thumbnail />
                                     <div className="fontStyle">
                                         <h4>Corporate Internship</h4>
                                         <p className="styleUni">Hewlett Packard Enterprise, Bangalore, India</p>
@@ -180,7 +189,7 @@ class AboutMe extends Component {
                                     </div>
                                 </div>
                                 <div className="alignEdu">
-                                    <Image src="images/iitd.png" thumbnail />
+                                    <Image src={iitImg} thumbnail />
                                     <div className="fontStyle">
                                         <h4>Summer Internship</h4>
                                         <p className="styleUni">Indian Institute of Technology, Delhi</p>

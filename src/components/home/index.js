@@ -1,13 +1,14 @@
 import React from 'react';
 import { Grid, Cell, Button } from 'react-mdl';
-import Footer from "./footer";
+import Footer from "../footer";
+import dp from "./img/picture.JPG";
 function Home() {
     return (
         <div className="gridDiv">
             <div className="alignDiv" style={{width: '100%', background: 'url(/images/b1.jpeg) center / cover'}}>
                 <Grid className="landingGrid">
                     <Cell align="top" col={4} tablet={8}>
-                        <img src="/images/picture.jpg" alt="profile" className="avatarImg"/>
+                        <img src={dp} alt="profile" className="avatarImg"/>
                     </Cell>
                     <Cell align="top" col={8} tablet={8}>
                         <div className="banner-text">

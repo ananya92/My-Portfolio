@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Footer from "./footer";
-import projectList from "../utils/projectList";
+import Footer from "../footer";
+import projectList from "../../utils/projectList";
 import ProjectCard from "./projectCard";
 class Projects extends Component {
     render() {
