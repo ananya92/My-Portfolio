@@ -52,9 +52,9 @@ class Contact extends Component {
                                         <Col xs={8}>
                                             <p className="contactHeader">Address:</p>
                                             <p>
-                                                West Beach, Adelaide,
+                                                Adelaide, SA,
                                             </p>
-                                            <p>SA, Australia, 5024</p>
+                                            <p>Australia, 5024</p>
                                         </Col>
                                     </Row>
                                 </Container>

@@ -88,7 +88,7 @@ class AboutMe extends Component {
                                 </ul>
                             </div>
                             <div className="gridRow">
-                                <p>Single Page Application</p>
+                                <p>Single Page App</p>
                                 <ul className="inlineCell">
                                     <li>React.js</li>
                                     <li>Redux</li>
