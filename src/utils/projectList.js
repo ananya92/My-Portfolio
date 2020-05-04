@@ -1,3 +1,6 @@
+import pr01 from "../components/projects/img/pr0_1.JPG";
+import pr02 from "../components/projects/img/pr0_2.JPG";
+import pr03 from "../components/projects/img/pr0_3.JPG";
 import pr11 from "../components/projects/img/pr1_1.png";
 import pr12 from "../components/projects/img/pr1_2.JPG";
 import pr13 from "../components/projects/img/pr1_3.JPG";
@@ -20,6 +23,15 @@ import pr103 from "../components/projects/img/pr10_3.PNG";
 import pr111 from "../components/projects/img/pr11_1.PNG";
 
 const projectList = [
+    {
+        title: "Whatsplan",
+        image: [pr01, pr02, pr03],
+        intro: "A planner application to effectively plan your project or activity.",
+        desc: ["Whatsplan’s easy to use interface lets you effortlessly plan and achieve your daily personal as well as professional goals.", "It allows breaking down your plan into milestones and tasks with ease, update the status of the tasks as and when it is worked on and easily collaborate with other users of the app by adding them as collaborators to your plan with a comments section on every task to discuss changes or progress of the task."],
+        tech: ["Single page application – React.js", "Backend: Node.js, Express.js", "Database – MongoDB, Mongoose", "CSS Framework – Semantic React, Spectre.css", "Middleware: Passport.js for authentication", "Other libraries – Moment.js, react-router-dom, react-datepicker etc.", "Build: Heroku"],
+        appLink: "https://whatsplan.herokuapp.com/",
+        github: "https://github.com/ananya92/Whatsplan"
+    },
     {
         title: "Donate Right",
         image: [pr11, pr12, pr13, pr14],
